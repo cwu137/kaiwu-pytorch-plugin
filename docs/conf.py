@@ -12,13 +12,13 @@ import sys
 from sphinx import addnodes
 
 sys.path.insert(0, os.path.abspath("../src"))
-from kaiwu.torch_plugin import __version__
+# from kaiwu.torch_plugin import __version__
 
 project = "Kaiwu-PyTorch-Plugin"
 copyright = "2025 Beijing QBoson Quantum Technology Co., Ltd"
 author = "QBoson Inc"
-release = __version__
-version = __version__
+release = "1.4.1" #__version__
+version = "1.4.1" #__version__
 
 # Read the Docs 为每个语言项目提供该环境变量；本地构建时默认使用中文。
 # 中文翻译目录使用 Sphinx 与 Read the Docs 共同使用的 zh_CN 语言代码。
@@ -36,19 +36,24 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.viewcode",
     "sphinxcontrib.jquery",
-    #'sphinx.ext.imgmath',
-    #'sphinx.ext.mathjax',
-    "sphinxcontrib.katex",
+    # "sphinx.ext.imgmath",  # 不要同时启用
+    # "sphinx.ext.mathjax",  # 启用 MathJax
+    "sphinxcontrib.katex",   # 或启用 KaTeX，但不要同时启用两者
     "myst_parser",
-    "sphinxcontrib.mermaid",
     "sphinx.ext.napoleon",
+    'sphinxcontrib.mermaid',  # 启用 Mermaid 扩展
+    "sphinxcontrib.bibtex",   # 启用 BibTeX 支持
 ]
 myst_enable_extensions = [
     "dollarmath",
     "amsmath",
+    "colon_fence", 
+    "deflist", 
+    "substitution", 
+    "tasklist", 
 ]
+myst_fence_as_directive = ["mermaid"]
 katex_prerender = True
-
 
 templates_path = ["_templates"]
 exclude_patterns = [
@@ -81,6 +86,14 @@ html_theme_options = {
 
 html_show_sourcelink = False
 html_css_files = ["custom.css"]
+
+
+# -- Options for BibTeX -----------------------------------------------------------
+bibtex_bibfiles = ['refs.bib']
+bibtex_default_style = 'unsrt'   # 参考文献样式，可选：'plain', 'unsrt', 'alpha', 'unsrtalpha'
+bibtex_reference_style = 'label' # 引用样式，可选：'label', 'author_year', 'super'
+# 可选：如果需要中文编码，请保持默认，或根据 .bib 文件的实际编码设置
+# bibtex_encoding = 'utf-8-sig'
 
 
 def _hide_attributes_from_page_toc(app, doctree):
