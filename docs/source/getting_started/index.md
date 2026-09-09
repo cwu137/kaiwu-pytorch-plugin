@@ -10,7 +10,7 @@ keywords:
 ``` -->
 
 
-# KPP Getting Started
+# Getting Started
 
 > **Kaiwu-PyTorch-Plugin (KPP)** is a PyTorch plugin for training and evaluating quantum-native energy models and enhanced AI models on **Special Purpose Quantum Computers (SPQC)**.
 > 
@@ -22,27 +22,27 @@ This guide walks you through the essentials in four parts:
 :maxdepth: 1
 :hidden:
 
-introduction
 background
+introduction
 installation
 quickstart
 ```
-
-## Overview
-
-Core concepts, design goals, features, and typical usage workflow.  
-Read the [Introduction](introduction.md) to learn:
-
-- What is KPP? Quantum-Classical Hybrid Programming Suite
-- System Architecture & Component Interaction
-- Core Concepts: Hybrid Workflow, Energy Model Hierarchy, Hardware Abstraction
-- Typical Usage Workflow
 
 ## Prerequisite
 
 Before proceeding, ensure you have basic knowledge of energy-based models and Boltzmann machines.  
 Please read the [Prerequisites](background.md), it covers the essentials of RBM and energy functions.  
 For a deeper dive into the statistical physics and neural network foundations, see the [Theoretical Foundations](../theoretical-foundations/index.md).
+
+## Overview
+
+Core concepts, design goals, features, and typical usage workflow.  
+Read the [Overview](introduction.md) to learn:
+
+- What is KPP? Quantum-Classical Hybrid Programming Suite
+- System Architecture & Component Interaction
+- Core Concepts: Hybrid Workflow, Energy Model Hierarchy, Hardware Abstraction
+- Typical Usage Workflow
 
 ## Installation Guide
 
@@ -67,24 +67,24 @@ Jump to the [Quick Start](quickstart.md) page to explore:
 
 ---
 
-# Tutorials for Beginners
+# Tutorials
 
-```{toctree}
-:maxdepth: 2
-:hidden:
+The [Tutorials](tutorials/index.md) section is designed for users who have already installed KPP and read the [Quick Start](quickstart.md) guide. It provides hands-on, end-to-end examples of KPP in action.
 
-tutorials/index
-```
+## Recommended Learning Paths
 
+**Beginner Path** — from the sampling bottleneck to your first application:
 
-The [Tutorials for Beginners](tutorials/index.md) section is designed for users who have already installed KPP and read the [Quick Start](quickstart.md) guide. 
+1. Complete the [Quick Start](quickstart.md) to understand the basic API and training loop
+2. Study [Why Quantum? Revisiting the Sampling Bottleneck](tutorials/quantum_sampling_bottleneck.md)
+3. Explore [Simulated Annealing for Ising Models](tutorials/simulated_annealing.md) to establish the sampling baseline
+4. Learn [Integrating Quantum Samplers into PyTorch](tutorials/quantum_sampling_pytorch.md) to integrate the CIM sampler
+5. Apply [RBM Classification](tutorials/rbm_classification.md) for your first end-to-end application
 
-Tutorials are organized into two tracks:
+**Advanced Path** — deeper architectures and generative models:
 
-**Beginner Track**: Start from the [sampling bottleneck](tutorials/quantum_sampling_bottleneck.md) and build up to your first hands‑on application: [RBM classification](tutorials/rbm_classification.md) on handwritten digits.
+1. [DBN Classification](tutorials/dbn_classification.md): extend RBM into deep hierarchical features
+2. [BM Generation](tutorials/bm_generation.md): generative modeling with a fully connected Boltzmann Machine
+3. [Q-VAE (MNIST)](tutorials/qvae_mnist.md): quantum-enhanced variational autoencoder for image generation and representation learning
 
-**Generative Model Track**, explore more powerful models:
-
-  - **BM Generation**: Use a fully connected Boltzmann Machine for fast, small‑scale data generation.
-  - **Q-VAE (MNIST)**: A quantum‑enhanced variational autoencoder that combines a variational autoencoder with a quantum Boltzmann machine for image generation and representation learning.
-
+**Complete Path**: work through all tutorials in order for comprehensive mastery of KPP. See the [Tutorials index](tutorials/index.md) for the full syllabus, including upcoming tutorials (Q-VAE for single-cell transcriptomics, Q-Diffusion for protein sequence generation).

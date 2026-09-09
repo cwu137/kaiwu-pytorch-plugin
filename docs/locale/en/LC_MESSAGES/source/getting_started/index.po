@@ -20,8 +20,8 @@ msgstr ""
 "Generated-By: Babel 2.17.0\n"
 
 #: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:13
-msgid "KPP Getting Started"
-msgstr "KPP Getting Started"
+msgid "Getting Started"
+msgstr "Getting Started"
 
 #: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:15
 msgid ""
@@ -48,40 +48,10 @@ msgid "This guide walks you through the essentials in four parts:"
 msgstr "This guide walks you through the essentials in four parts:"
 
 #: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:31
-msgid "Overview"
-msgstr "Overview"
-
-#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:33
-msgid ""
-"Core concepts, design goals, features, and typical usage workflow.   Read "
-"the [Introduction](introduction.md) to learn:"
-msgstr ""
-"Core concepts, design goals, features, and typical usage workflow.   Read "
-"the [Introduction](introduction.md) to learn:"
-
-#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:36
-msgid "What is KPP? Quantum-Classical Hybrid Programming Suite"
-msgstr "What is KPP? Quantum-Classical Hybrid Programming Suite"
-
-#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:37
-msgid "System Architecture & Component Interaction"
-msgstr "System Architecture & Component Interaction"
-
-#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:38
-msgid ""
-"Core Concepts: Hybrid Workflow, Energy Model Hierarchy, Hardware Abstraction"
-msgstr ""
-"Core Concepts: Hybrid Workflow, Energy Model Hierarchy, Hardware Abstraction"
-
-#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:39
-msgid "Typical Usage Workflow"
-msgstr "Typical Usage Workflow"
-
-#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:41
 msgid "Prerequisite"
 msgstr "Prerequisite"
 
-#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:43
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:33
 msgid ""
 "Before proceeding, ensure you have basic knowledge of energy-based models "
 "and Boltzmann machines.   Please read the [Prerequisites](background.md), it"
@@ -94,6 +64,36 @@ msgstr ""
 " covers the essentials of RBM and energy functions.   For a deeper dive into"
 " the statistical physics and neural network foundations, see the "
 "[Theoretical Foundations](../theoretical-foundations/index.md)."
+
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:37
+msgid "Overview"
+msgstr "Overview"
+
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:39
+msgid ""
+"Core concepts, design goals, features, and typical usage workflow.   Read "
+"the [Overview](introduction.md) to learn:"
+msgstr ""
+"Core concepts, design goals, features, and typical usage workflow.   Read "
+"the [Overview](introduction.md) to learn:"
+
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:42
+msgid "What is KPP? Quantum-Classical Hybrid Programming Suite"
+msgstr "What is KPP? Quantum-Classical Hybrid Programming Suite"
+
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:43
+msgid "System Architecture & Component Interaction"
+msgstr "System Architecture & Component Interaction"
+
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:44
+msgid ""
+"Core Concepts: Hybrid Workflow, Energy Model Hierarchy, Hardware Abstraction"
+msgstr ""
+"Core Concepts: Hybrid Workflow, Energy Model Hierarchy, Hardware Abstraction"
+
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:45
+msgid "Typical Usage Workflow"
+msgstr "Typical Usage Workflow"
 
 #: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:47
 msgid "Installation Guide"
@@ -158,56 +158,148 @@ msgid "Next Learning Paths & Resources"
 msgstr "Next Learning Paths & Resources"
 
 #: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:70
-msgid "Tutorials for Beginners"
-msgstr "Tutorials for Beginners"
+msgid "Tutorials"
+msgstr "Tutorials"
+
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:72
+msgid ""
+"The [Tutorials](tutorials/index.md) section is designed for users who have "
+"already installed KPP and read the [Quick Start](quickstart.md) guide. It "
+"provides hands-on, end-to-end examples of KPP in action."
+msgstr ""
+"The [Tutorials](tutorials/index.md) section is designed for users who have "
+"already installed KPP and read the [Quick Start](quickstart.md) guide. It "
+"provides hands-on, end-to-end examples of KPP in action."
+
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:74
+msgid "Recommended Learning Paths"
+msgstr "Recommended Learning Paths"
+
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:76
+msgid ""
+"**Beginner Path** — from the sampling bottleneck to your first application:"
+msgstr ""
+"**Beginner Path** — from the sampling bottleneck to your first application:"
+
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:78
+msgid ""
+"Complete the [Quick Start](quickstart.md) to understand the basic API and "
+"training loop"
+msgstr ""
+"Complete the [Quick Start](quickstart.md) to understand the basic API and "
+"training loop"
+
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:79
+msgid ""
+"Study [Why Quantum? Revisiting the Sampling "
+"Bottleneck](tutorials/quantum_sampling_bottleneck.md)"
+msgstr ""
+"Study [Why Quantum? Revisiting the Sampling "
+"Bottleneck](tutorials/quantum_sampling_bottleneck.md)"
 
 #: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:80
 msgid ""
-"The [Tutorials for Beginners](tutorials/index.md) section is designed for "
-"users who have already installed KPP and read the [Quick "
-"Start](quickstart.md) guide."
+"Explore [Simulated Annealing for Ising "
+"Models](tutorials/simulated_annealing.md) to establish the sampling baseline"
 msgstr ""
-"The [Tutorials for Beginners](tutorials/index.md) section is designed for "
-"users who have already installed KPP and read the [Quick "
-"Start](quickstart.md) guide."
+"Explore [Simulated Annealing for Ising "
+"Models](tutorials/simulated_annealing.md) to establish the sampling baseline"
+
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:81
+msgid ""
+"Learn [Integrating Quantum Samplers into "
+"PyTorch](tutorials/quantum_sampling_pytorch.md) to integrate the CIM sampler"
+msgstr ""
+"Learn [Integrating Quantum Samplers into "
+"PyTorch](tutorials/quantum_sampling_pytorch.md) to integrate the CIM sampler"
 
 #: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:82
-msgid "Tutorials are organized into two tracks:"
-msgstr "Tutorials are organized into two tracks:"
+msgid ""
+"Apply [RBM Classification](tutorials/rbm_classification.md) for your first "
+"end-to-end application"
+msgstr ""
+"Apply [RBM Classification](tutorials/rbm_classification.md) for your first "
+"end-to-end application"
 
 #: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:84
-msgid ""
-"**Beginner Track**: Start from the [sampling "
-"bottleneck](tutorials/quantum_sampling_bottleneck.md) and build up to your "
-"first hands‑on application: "
-"[RBM classification](tutorials/rbm_classification.md) on handwritten digits."
-msgstr ""
-"**Beginner Track**: Start from the [sampling "
-"bottleneck](tutorials/quantum_sampling_bottleneck.md) and build up to your "
-"first hands‑on application: "
-"[RBM classification](tutorials/rbm_classification.md) on handwritten digits."
+msgid "**Advanced Path** — deeper architectures and generative models:"
+msgstr "**Advanced Path** — deeper architectures and generative models:"
 
 #: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:86
-msgid "**Generative Model Track**, explore more powerful models:"
-msgstr "**Generative Model Track**, explore more powerful models:"
+msgid ""
+"[DBN Classification](tutorials/dbn_classification.md): extend RBM into deep "
+"hierarchical features"
+msgstr ""
+"[DBN Classification](tutorials/dbn_classification.md): extend RBM into deep "
+"hierarchical features"
+
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:87
+msgid ""
+"[BM Generation](tutorials/bm_generation.md): generative modeling with a "
+"fully connected Boltzmann Machine"
+msgstr ""
+"[BM Generation](tutorials/bm_generation.md): generative modeling with a "
+"fully connected Boltzmann Machine"
 
 #: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:88
 msgid ""
-"**BM Generation**: Use a fully connected Boltzmann "
-"Machine for fast, small‑scale data generation."
+"[Q-VAE (MNIST)](tutorials/qvae_mnist.md): quantum-enhanced variational "
+"autoencoder for image generation and representation learning"
 msgstr ""
-"**BM Generation**: Use a fully connected Boltzmann "
-"Machine for fast, small‑scale data generation."
+"[Q-VAE (MNIST)](tutorials/qvae_mnist.md): quantum-enhanced variational "
+"autoencoder for image generation and representation learning"
 
-#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:89
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:90
 msgid ""
-"**Q-VAE (MNIST)**: A quantum‑enhanced variational autoencoder that combines a "
-"variational autoencoder with a quantum Boltzmann machine for image "
-"generation and representation learning."
+"**Complete Path**: work through all tutorials in order for comprehensive "
+"mastery of KPP. See the [Tutorials index](tutorials/index.md) for the full "
+"syllabus, including upcoming tutorials (Q-VAE for single-cell "
+"transcriptomics, Q-Diffusion for protein sequence generation)."
 msgstr ""
-"**Q-VAE (MNIST)**: A quantum‑enhanced variational autoencoder that combines a "
-"variational autoencoder with a quantum Boltzmann machine for image "
-"generation and representation learning."
+"**Complete Path**: work through all tutorials in order for comprehensive "
+"mastery of KPP. See the [Tutorials index](tutorials/index.md) for the full "
+"syllabus, including upcoming tutorials (Q-VAE for single-cell "
+"transcriptomics, Q-Diffusion for protein sequence generation)."
+
+#~ msgid ""
+#~ "The [Tutorials](tutorials/index.md) section is designed for users who have "
+#~ "already installed KPP and read the [Quick Start](quickstart.md) guide."
+#~ msgstr ""
+#~ "The [Tutorials](tutorials/index.md) section is designed for users who have "
+#~ "already installed KPP and read the [Quick Start](quickstart.md) guide."
+
+#~ msgid "Tutorials are organized into two tracks:"
+#~ msgstr "Tutorials are organized into two tracks:"
+
+#~ msgid ""
+#~ "**Beginner Track**: Start from the [sampling "
+#~ "bottleneck](tutorials/quantum_sampling_bottleneck.md) and build up to your "
+#~ "first hands‑on application: [RBM "
+#~ "classification](tutorials/rbm_classification.md) on handwritten digits."
+#~ msgstr ""
+#~ "**Beginner Track**: Start from the [sampling "
+#~ "bottleneck](tutorials/quantum_sampling_bottleneck.md) and build up to your "
+#~ "first hands‑on application: [RBM "
+#~ "classification](tutorials/rbm_classification.md) on handwritten digits."
+
+#~ msgid "**Generative Model Track**, explore more powerful models:"
+#~ msgstr "**Generative Model Track**, explore more powerful models:"
+
+#~ msgid ""
+#~ "**BM Generation**: Use a fully connected Boltzmann Machine for fast, "
+#~ "small‑scale data generation."
+#~ msgstr ""
+#~ "**BM Generation**: Use a fully connected Boltzmann Machine for fast, "
+#~ "small‑scale data generation."
+
+#~ msgid ""
+#~ "**Q-VAE (MNIST)**: Quantum‑enhanced variational autoencoder combining a "
+#~ "variational autoencoder with a quantum Boltzmann machine for image "
+#~ "generation and representation learning."
+#~ msgstr ""
+#~ "**Q-VAE (MNIST)**: Quantum‑enhanced variational autoencoder combining a "
+#~ "variational autoencoder with a quantum Boltzmann machine for image "
+#~ "generation and representation learning."
 
 #~ msgid "入门指南"
 #~ msgstr "Getting Started"
