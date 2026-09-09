@@ -89,16 +89,6 @@ msgstr "用户可见行为变化时，请同步更新对应的 README、示例�
 msgid "更新或新增示例"
 msgstr "更新或新增示例"
 
-#: ../../source/about/contributing.md:54
-msgid ""
-"已有的基础脚本位于 `example/run_bm.py` 和 `example/run_rbm.py`。Digits、DBN、BM 生成和 Q-VAE"
-" 示例通过各自目录中的 Notebook 运行，具体入口见 "
-"[example/README_ZH.md](../../../example/README_ZH.md)。"
-msgstr ""
-"已有的基础脚本位于 `example/run_bm.py` 和 `example/run_rbm.py`。Digits、DBN、BM 生成和 Q-VAE"
-" 示例通过各自目录中的 Notebook 运行，具体入口见 "
-"[example/README_ZH.md](../../../example/README_ZH.md)。"
-
 #: ../../source/about/contributing.md:56
 msgid "Q-Diffusion 的最小训练和生成示例可在仓库根目录执行："
 msgstr "Q-Diffusion 的最小训练和生成示例可在仓库根目录执行："
@@ -120,6 +110,20 @@ msgid ""
 "请在 Pull Request 中说明改动目的、测试方式，以及对 README、示例或文档的更新。维护者会根据代码质量、测试覆盖和兼容性进行审阅。"
 msgstr ""
 "请在 Pull Request 中说明改动目的、测试方式，以及对 README、示例或文档的更新。维护者会根据代码质量、测试覆盖和兼容性进行审阅。"
+
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/about/contributing.md:54
+msgid ""
+"已有的基础脚本位于 `example/run_bm.py` 和 `example/run_rbm.py`。Digits、DBN、BM 生成和 Q-VAE"
+" 示例通过各自目录中的 Notebook 运行，具体入口见 "
+"[example/README_ZH.md](https://github.com/qboson/kaiwu-pytorch-"
+"plugin/blob/main/example/README_ZH.md)。"
+msgstr ""
+
+#~ msgid ""
+#~ "已有的基础脚本位于 `example/run_bm.py` 和 `example/run_rbm.py`。Digits、DBN、BM 生成和 Q-VAE"
+#~ " 示例通过各自目录中的 Notebook 运行，具体入口见 "
+#~ "[example/README_ZH.md](../../../example/README_ZH.md)。"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "感谢你对 Kaiwu-PyTorch-Plugin 的关注。我们欢迎代码、文档、示例、测试和问题反馈等各类贡献。提交前，请先搜索现有的 "
