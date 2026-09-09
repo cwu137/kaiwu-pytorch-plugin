@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kaiwu-PyTorch-Plugin 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-08 15:02+0800\n"
+"POT-Creation-Date: 2026-09-08 19:29+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -19,11 +19,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: ../../source/getting_started/index.md:13
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:13
 msgid "KPP Getting Started"
 msgstr "KPP Getting Started"
 
-#: ../../source/getting_started/index.md:15
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:15
 msgid ""
 "**Kaiwu-PyTorch-Plugin (KPP)** is a PyTorch plugin for training and "
 "evaluating quantum-native energy models and enhanced AI models on **Special "
@@ -33,7 +33,7 @@ msgstr ""
 "evaluating quantum-native energy models and enhanced AI models on **Special "
 "Purpose Quantum Computers (SPQC)**."
 
-#: ../../source/getting_started/index.md:17
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:17
 msgid ""
 "It offloads Boltzmann sampling to the **Coherent Ising Machine (CIM)** "
 "through the Kaiwu SDK, while keeping all other computations, parameter "
@@ -43,15 +43,15 @@ msgstr ""
 "through the Kaiwu SDK, while keeping all other computations, parameter "
 "updates, autograd, data loading, in the standard PyTorch workflow."
 
-#: ../../source/getting_started/index.md:19
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:19
 msgid "This guide walks you through the essentials in four parts:"
 msgstr "This guide walks you through the essentials in four parts:"
 
-#: ../../source/getting_started/index.md:31
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:31
 msgid "Overview"
 msgstr "Overview"
 
-#: ../../source/getting_started/index.md:33
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:33
 msgid ""
 "Core concepts, design goals, features, and typical usage workflow.   Read "
 "the [Introduction](introduction.md) to learn:"
@@ -59,29 +59,29 @@ msgstr ""
 "Core concepts, design goals, features, and typical usage workflow.   Read "
 "the [Introduction](introduction.md) to learn:"
 
-#: ../../source/getting_started/index.md:36
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:36
 msgid "What is KPP? Quantum-Classical Hybrid Programming Suite"
 msgstr "What is KPP? Quantum-Classical Hybrid Programming Suite"
 
-#: ../../source/getting_started/index.md:37
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:37
 msgid "System Architecture & Component Interaction"
 msgstr "System Architecture & Component Interaction"
 
-#: ../../source/getting_started/index.md:38
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:38
 msgid ""
 "Core Concepts: Hybrid Workflow, Energy Model Hierarchy, Hardware Abstraction"
 msgstr ""
 "Core Concepts: Hybrid Workflow, Energy Model Hierarchy, Hardware Abstraction"
 
-#: ../../source/getting_started/index.md:39
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:39
 msgid "Typical Usage Workflow"
 msgstr "Typical Usage Workflow"
 
-#: ../../source/getting_started/index.md:41
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:41
 msgid "Prerequisite"
 msgstr "Prerequisite"
 
-#: ../../source/getting_started/index.md:43
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:43
 msgid ""
 "Before proceeding, ensure you have basic knowledge of energy-based models "
 "and Boltzmann machines.   Please read the [Prerequisites](background.md), it"
@@ -95,11 +95,11 @@ msgstr ""
 " the statistical physics and neural network foundations, see the "
 "[Theoretical Foundations](../theoretical-foundations/index.md)."
 
-#: ../../source/getting_started/index.md:47
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:47
 msgid "Installation Guide"
 msgstr "Installation Guide"
 
-#: ../../source/getting_started/index.md:49
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:49
 msgid ""
 "System requirements, local (conda/pip) and Docker setup, Kaiwu SDK "
 "configuration, and installation verification.   See the [Installation "
@@ -109,31 +109,31 @@ msgstr ""
 "configuration, and installation verification.   See the [Installation "
 "Guide](installation.md) for:"
 
-#: ../../source/getting_started/index.md:52
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:52
 msgid "System Requirements"
 msgstr "System Requirements"
 
-#: ../../source/getting_started/index.md:53
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:53
 msgid "Option 1: Local Setup"
 msgstr "Option 1: Local Setup"
 
-#: ../../source/getting_started/index.md:54
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:54
 msgid "Option 2: Docker Setup"
 msgstr "Option 2: Docker Setup"
 
-#: ../../source/getting_started/index.md:55
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:55
 msgid "Kaiwu SDK Configuration & License"
 msgstr "Kaiwu SDK Configuration & License"
 
-#: ../../source/getting_started/index.md:56
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:56
 msgid "Installation Verification"
 msgstr "Installation Verification"
 
-#: ../../source/getting_started/index.md:58
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:58
 msgid "Quick Start"
 msgstr "Quick Start"
 
-#: ../../source/getting_started/index.md:60
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:60
 msgid ""
 "RBM and BM training examples, sampler switching (SA / CIM), and next "
 "learning paths.   Jump to the [Quick Start](quickstart.md) page to explore:"
@@ -141,61 +141,73 @@ msgstr ""
 "RBM and BM training examples, sampler switching (SA / CIM), and next "
 "learning paths.   Jump to the [Quick Start](quickstart.md) page to explore:"
 
-#: ../../source/getting_started/index.md:63
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:63
 msgid "RBM Training Walkthrough"
 msgstr "RBM Training Walkthrough"
 
-#: ../../source/getting_started/index.md:64
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:64
 msgid "Code Mapping"
 msgstr "Code Mapping"
 
-#: ../../source/getting_started/index.md:65
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:65
 msgid "Switching Samplers: SA (classical) vs CIM (quantum)"
 msgstr "Switching Samplers: SA (classical) vs CIM (quantum)"
 
-#: ../../source/getting_started/index.md:66
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:66
 msgid "Next Learning Paths & Resources"
 msgstr "Next Learning Paths & Resources"
 
-#: ../../source/getting_started/index.md:70
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:70
 msgid "Tutorials for Beginners"
 msgstr "Tutorials for Beginners"
 
-#: ../../source/getting_started/index.md:79
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:80
 msgid ""
-"The tutorials in this section are designed for users who have already "
-"installed KPP and read the [Quick Start](quickstart.md) guide."
+"The [Tutorials for Beginners](tutorials/index.md) section is designed for "
+"users who have already installed KPP and read the [Quick "
+"Start](quickstart.md) guide."
 msgstr ""
-"The tutorials in this section are designed for users who have already "
-"installed KPP and read the [Quick Start](quickstart.md) guide."
+"The [Tutorials for Beginners](tutorials/index.md) section is designed for "
+"users who have already installed KPP and read the [Quick "
+"Start](quickstart.md) guide."
 
-#: ../../source/getting_started/index.md:81
-msgid "The [Tutorials for Beginners](tutorials/index.md) section covers:"
-msgstr "The [Tutorials for Beginners](tutorials/index.md) section covers:"
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:82
+msgid "Tutorials are organized into two tracks:"
+msgstr "Tutorials are organized into two tracks:"
 
-#: ../../source/getting_started/index.md:83
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:84
 msgid ""
-"**BM/RBM Training Walkthrough** – train your first Restricted Boltzmann "
-"Machine and ull Boltzmann Machine end‑to‑end."
+"**Beginner Track**: Start from the [sampling "
+"bottleneck](tutorials/quantum_sampling_bottleneck.md) and build up to your "
+"first hands‑on application: "
+"[RBM classification](tutorials/rbm_classification.md) on handwritten digits."
 msgstr ""
-"**BM/RBM Training Walkthrough** – train your first Restricted Boltzmann "
-"Machine and ull Boltzmann Machine end‑to‑end."
+"**Beginner Track**: Start from the [sampling "
+"bottleneck](tutorials/quantum_sampling_bottleneck.md) and build up to your "
+"first hands‑on application: "
+"[RBM classification](tutorials/rbm_classification.md) on handwritten digits."
 
-#: ../../source/getting_started/index.md:84
-msgid ""
-"**Switching Samplers (SA / CIM)** – understand how to swap classical and "
-"quantum samplers."
-msgstr ""
-"**Switching Samplers (SA / CIM)** – understand how to swap classical and "
-"quantum samplers."
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:86
+msgid "**Generative Model Track**, explore more powerful models:"
+msgstr "**Generative Model Track**, explore more powerful models:"
 
-#: ../../source/getting_started/index.md:85
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:88
 msgid ""
-"**Next Learning Paths** – pointers to advanced applications and deeper "
-"theory."
+"**BM Generation**: Use a fully connected Boltzmann "
+"Machine for fast, small‑scale data generation."
 msgstr ""
-"**Next Learning Paths** – pointers to advanced applications and deeper "
-"theory."
+"**BM Generation**: Use a fully connected Boltzmann "
+"Machine for fast, small‑scale data generation."
+
+#: ../../../../Users/chang137/Documents/kaiwu_torch_plugin_docs/docs/source/getting_started/index.md:89
+msgid ""
+"**Q-VAE (MNIST)**: A quantum‑enhanced variational autoencoder that combines a "
+"variational autoencoder with a quantum Boltzmann machine for image "
+"generation and representation learning."
+msgstr ""
+"**Q-VAE (MNIST)**: A quantum‑enhanced variational autoencoder that combines a "
+"variational autoencoder with a quantum Boltzmann machine for image "
+"generation and representation learning."
 
 #~ msgid "入门指南"
 #~ msgstr "Getting Started"
@@ -218,3 +230,27 @@ msgstr ""
 #~ "RBM and BM training examples, sampler switching (SA / CIM), and next "
 #~ "learning paths."
 #~ msgstr ""
+
+#~ msgid "The [Tutorials for Beginners](tutorials/index.md) section covers:"
+#~ msgstr "The [Tutorials for Beginners](tutorials/index.md) section covers:"
+
+#~ msgid ""
+#~ "**BM/RBM Training Walkthrough** – train your first Restricted Boltzmann "
+#~ "Machine and ull Boltzmann Machine end‑to‑end."
+#~ msgstr ""
+#~ "**BM/RBM Training Walkthrough** – train your first Restricted Boltzmann "
+#~ "Machine and ull Boltzmann Machine end‑to‑end."
+
+#~ msgid ""
+#~ "**Switching Samplers (SA / CIM)** – understand how to swap classical and "
+#~ "quantum samplers."
+#~ msgstr ""
+#~ "**Switching Samplers (SA / CIM)** – understand how to swap classical and "
+#~ "quantum samplers."
+
+#~ msgid ""
+#~ "**Next Learning Paths** – pointers to advanced applications and deeper "
+#~ "theory."
+#~ msgstr ""
+#~ "**Next Learning Paths** – pointers to advanced applications and deeper "
+#~ "theory."
