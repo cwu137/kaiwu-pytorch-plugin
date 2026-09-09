@@ -76,13 +76,15 @@ Jump to the [Quick Start](quickstart.md) page to explore:
 tutorials/index
 ```
 
-The tutorials in this section are designed for users who have already installed KPP and read the [Quick Start](quickstart.md) guide.  
 
-The [Tutorials for Beginners](tutorials/index.md) section covers:
+The [Tutorials for Beginners](tutorials/index.md) section is designed for users who have already installed KPP and read the [Quick Start](quickstart.md) guide. 
 
-- **BM/RBM Training Walkthrough** – train your first Restricted Boltzmann Machine and ull Boltzmann Machine end‑to‑end.
-- **Switching Samplers (SA / CIM)** – understand how to swap classical and quantum samplers.
-- **Next Learning Paths** – pointers to advanced applications and deeper theory.
+Tutorials are organized into two tracks:
 
-<!-- If you are new to KPP, we recommend starting with the [Tutorials for Beginners](../tutorials/index.md) to build hands‑on experience. -->
+**Beginner Track**: Start from the [sampling bottleneck](tutorials/quantum_sampling_bottleneck.md) and build up to your first hands‑on application: [RBM classification](tutorials/rbm_classification.md) on handwritten digits.
+
+**Generative Model Track**, explore more powerful models:
+
+  - **BM Generation**: Use a fully connected Boltzmann Machine for fast, small‑scale data generation.
+  - **Q-VAE (MNIST)**: A quantum‑enhanced variational autoencoder that combines a variational autoencoder with a quantum Boltzmann machine for image generation and representation learning.
 
