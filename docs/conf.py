@@ -12,13 +12,13 @@ import sys
 from sphinx import addnodes
 
 sys.path.insert(0, os.path.abspath("../src"))
-# from kaiwu.torch_plugin import __version__
+from kaiwu.torch_plugin import __version__
 
 project = "Kaiwu-PyTorch-Plugin"
 copyright = "2025 Beijing QBoson Quantum Technology Co., Ltd"
 author = "QBoson Inc"
-release = "1.4.1" #__version__
-version = "1.4.1" #__version__
+release = __version__
+version = __version__
 
 # Read the Docs 为每个语言项目提供该环境变量；本地构建时默认使用中文。
 # 中文翻译目录使用 Sphinx 与 Read the Docs 共同使用的 zh_CN 语言代码。
