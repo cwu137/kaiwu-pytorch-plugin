@@ -60,7 +60,7 @@ where $\Delta E_i = E_{x_i=0} - E_{x_i=1}$ is the energy *decrease* when unit $i
 
 This ability to climb energy barriers is precisely what enables escape from spurious minima. A network trapped in a shallow local minimum can, after a sequence of unfavorable thermal fluctuations, surmount the surrounding energy barrier and descend into a deeper, more favorable basin. The noise provides the **exploration** mechanism that deterministic dynamics lack.
 
-## Statistical Physics Foundations: Noise as Thermal Equilibrium
+## Noise as Thermal Equilibrium
 The introduction of noise is not merely an algorithmic trick; it is a direct consequence of the **canonical ensemble** derived in Section [1.2 The Boltzmann Distribution and Equilibrium](kpp-theoretical-foundations-stat-boltzmann.md). When a system is in thermal contact with a heat reservoir at temperature $T$, the probability of occupying any microstate is given by the Boltzmann distribution. The stochastic update rule for a single neuron is precisely the conditional probability $P(x_i = 1 \mid \mathbf{x}_{-i})$ derived from the Boltzmann distribution:
 
 $$P(x_i = 1 \mid \mathbf{x}_{-i}) = \frac{\exp(-E(x_i=1, \mathbf{x}_{-i})/T)}{\exp(-E(x_i=1, \mathbf{x}_{-i})/T) + \exp(-E(x_i=0, \mathbf{x}_{-i})/T)} = \sigma\left( \frac{\sum_j w_{ij} x_j + b_i}{T} \right)$$

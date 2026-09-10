@@ -11,12 +11,12 @@ msgstr ""
 "POT-Creation-Date: 2026-07-09 21:27+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: zh\n"
 "Language-Team: zh <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.18.0\n"
 
 #: ../../source/theoretical-foundations-recap.md:10
@@ -49,8 +49,8 @@ msgid ""
 "exactly due to the partition function sum over exponentially many "
 "configurations."
 msgstr ""
-"**基于能量的模型** 形式化了学习目标：塑造能量函数，使真实数据占据深谷。梯度包含模型分布下的期望，而由于配分函数需要对指数数量构型求和，该期望无法精"
-"确计算。"
+"**基于能量的模型** "
+"形式化了学习目标：塑造能量函数，使真实数据占据深谷。梯度包含模型分布下的期望，而由于配分函数需要对指数数量构型求和，该期望无法精确计算。"
 
 #: ../../source/theoretical-foundations-recap.md:16
 msgid ""
@@ -71,8 +71,8 @@ msgid ""
 "distributions is hard**. Classical Markov Chain Monte Carlo (MCMC) methods, "
 "such as Gibbs sampling, suffer from:"
 msgstr ""
-"尽管有架构简化，所有玻尔兹曼机仍共享一个根本瓶颈：**从高维玻尔兹曼分布中采样很难**。经典 Markov Chain Monte Carlo（MCMC"
-"）方法，例如 Gibbs 采样，会遇到："
+"尽管有架构简化，所有玻尔兹曼机仍共享一个根本瓶颈：**从高维玻尔兹曼分布中采样很难**。经典 Markov Chain Monte "
+"Carlo（MCMC）方法，例如 Gibbs 采样，会遇到："
 
 #: ../../source/theoretical-foundations-recap.md:21
 msgid ""
@@ -87,7 +87,8 @@ msgid ""
 msgstr "**短链近似中的模态塌缩**，例如对比散度（CD）。"
 
 #: ../../source/theoretical-foundations-recap.md:23
-msgid "**Bias** that accumulates when persistent chains fail to fully equilibrate."
+msgid ""
+"**Bias** that accumulates when persistent chains fail to fully equilibrate."
 msgstr "**偏差**，当持久链无法完全达到平衡时会不断累积。"
 
 #: ../../source/theoretical-foundations-recap.md:25
@@ -99,16 +100,16 @@ msgid ""
 "simulate a critical Ising model also makes it hard to sample from a well-"
 "trained Boltzmann machine that has learned a rich, multimodal data "
 "distribution."
-msgstr "这些采样限制约束了基于能量模型的实际表达能力。"
+msgstr ""
+"这不仅是软件优化问题；它是深植于统计力学的 **物理现象**。在临界点附近，关联长度发散，导致 Markov "
+"链混合极其缓慢（临界慢化）。同样的物理机制既让临界 Ising 模型难以模拟，也让已经学习到丰富多模态数据分布的玻尔兹曼机难以采样。"
 
 #: ../../source/theoretical-foundations-recap.md:27
 msgid ""
 "These sampling limitations cap the practical expressiveness of energy‑based "
 "models and motivate the search for fundamentally different sampling "
 "strategies."
-msgstr ""
-"这不仅是软件优化问题；它是深植于统计力学的 **物理现象**。在临界点附近，关联长度发散，导致 Markov 链混合极其缓慢（临界慢化）。同样的物理机制"
-"既让临界 Ising 模型难以模拟，也让已经学习到丰富多模态数据分布的玻尔兹曼机难以采样。"
+msgstr "这些采样限制约束了基于能量模型的实际表达能力，并推动我们寻找根本不同的采样策略。"
 
 #: ../../source/theoretical-foundations-recap.md:29
 msgid "A Principled Classical Alternative: Simulated Annealing"
@@ -119,7 +120,8 @@ msgid ""
 "**Simulated annealing (SA)** is a classical metaheuristic that can be used "
 "to sample from Ising Hamiltonians. Instead of relying on a single Markov "
 "chain, SA mimics the physical annealing process:"
-msgstr "**模拟退火（SA）** 是一种可用于从 Ising 哈密顿量中采样的经典元启发式方法。它不依赖单条固定温度的 Markov 链，而是模拟物理退火过程："
+msgstr ""
+"**模拟退火（SA）** 是一种可用于从 Ising 哈密顿量中采样的经典元启发式方法。它不依赖单条固定温度的 Markov 链，而是模拟物理退火过程："
 
 #: ../../source/theoretical-foundations-recap.md:33
 msgid ""
@@ -156,12 +158,12 @@ msgid ""
 "slowing down phenomenon). This limitation opens the door to more advanced "
 "methods, including quantum sampling."
 msgstr ""
-"不过，SA 仍依赖 **热激活** 逃离局部极小值；当能垒很高时，这一过程会指数级变慢，也就是临界慢化。因此，更高级的方法，包括量子采样，就有了用武之地"
-"。"
+"不过，SA 仍依赖 **热激活** "
+"逃离局部极小值；当能垒很高时，这一过程会指数级变慢，也就是临界慢化。因此，更高级的方法，包括量子采样，就有了用武之地。"
 
 #: ../../source/theoretical-foundations-recap.md:41
 msgid "Beyond Classical Sampling: Quantum Sampling"
-msgstr "原则化替代方案：物理量子退火"
+msgstr "超越经典采样：量子采样"
 
 #: ../../source/theoretical-foundations-recap.md:43
 msgid ""
@@ -172,8 +174,9 @@ msgid ""
 "states. Devices such as **quantum annealers**, i.e. Coherent Ising Machines "
 "(CIMs), realize this principle in hardware."
 msgstr ""
-"**量子采样** 提供了一种有物理基础的替代方案。通过把能量函数编码为 Ising 哈密顿量，并使量子系统（例如 **相干伊辛机（CIM）**）向其基态"
-"演化，我们可以直接获得低能构型。不同于模拟 MCMC，量子退火通过自然物理弛豫探索能量景观，常常能用更少有效步骤找到更深极小值。"
+"**量子采样** 提供了一种有物理基础的替代方案。通过把能量函数编码为 Ising 哈密顿量，并使量子系统（例如 "
+"**相干伊辛机（CIM）**）向其基态演化，我们可以直接获得低能构型。不同于模拟 "
+"MCMC，量子退火通过自然物理弛豫探索能量景观，常常能用更少有效步骤找到更深极小值。"
 
 #: ../../source/theoretical-foundations-recap.md:45
 msgid ""
@@ -193,46 +196,45 @@ msgstr "第二部分预览：量子增强实操教程"
 
 #: ../../source/theoretical-foundations-recap.md:48
 msgid ""
-"Part II [KPP Hands-on Tutorials](../getting_started/tutorials/index.md) shifts from theory "
-"to practice. you will use the **Kaiwu-PyTorch-Plugin** to replace classical "
-"sampling (Gibbs, CD, and simulated annealing) with quantum‑enhanced "
-"sampling. The plugin abstracts away the hardware details, allowing you to "
-"switch between classical and quantum samplers with minimal code changes."
+"Part II [KPP Hands-on Tutorials](../getting_started/tutorials/index.md) "
+"shifts from theory to practice. you will use the **Kaiwu-PyTorch-Plugin** to"
+" replace classical sampling (Gibbs, CD, and simulated annealing) with "
+"quantum‑enhanced sampling. The plugin abstracts away the hardware details, "
+"allowing you to switch between classical and quantum samplers with minimal "
+"code changes."
 msgstr ""
-"第二部分 [KPP 实操教程](../getting_started/tutorials/index.md) 将从理论转向实践。你将使用 **Kaiwu-PyTorch-Plugin"
-"**，以通过相干伊辛机（CIM）实现的量子增强采样替代经典采样。CIM 是一种能够自然寻找低能自旋构型的光参量振荡器系统。教程会把它应用到若干更复杂任务"
-"："
+"第二部分 [KPP 实操教程](../getting_started/tutorials/index.md) 将从理论转向实践。你将使用 "
+"**Kaiwu-PyTorch-Plugin**，以通过相干伊辛机（CIM）实现的量子增强采样替代经典采样。CIM "
+"是一种能够自然寻找低能自旋构型的光参量振荡器系统。教程会把它应用到若干更复杂任务："
 
 #: ../../source/theoretical-foundations-recap.md:50
 msgid "Moreover, four sophisticated tasks will be covered:"
-msgstr "**EBM 的量子采样：** 理解 CIM 原理，并把量子采样器集成到 PyTorch 中。"
+msgstr "此外，还将涵盖四个进阶任务："
 
 #: ../../source/theoretical-foundations-recap.md:52
 msgid ""
 "**Quantum Sampling for EBMs:** Understand the annealing principle and "
 "integrate quantum samplers into PyTorch."
-msgstr "**全玻尔兹曼机：** 建模二维混合分布，并观察量子加速。"
+msgstr "**EBM 的量子采样：** 理解退火原理，并把量子采样器集成到 PyTorch。"
 
 #: ../../source/theoretical-foundations-recap.md:53
 msgid ""
 "**Full Boltzmann Machine:** Model a 2D mixture distribution and observe "
 "quantum speed‑up."
-msgstr "**RBM 与 DBN：** 从 MNIST 数字中学习层级特征；比较量子加速训练与经典 CD。"
+msgstr "**全玻尔兹曼机：** 建模二维混合分布，并观察量子加速。"
 
 #: ../../source/theoretical-foundations-recap.md:54
 msgid ""
 "**RBMs and DBNs:** Learn hierarchical features from MNIST digits; compare "
 "quantum‑accelerated training against classical CD."
-msgstr "**量子变分自编码器（Q-VAE）：** 用离散量子 RBM 替代 VAE 的 Gaussian 先验，并应用于图像生成和单细胞转录组学。"
+msgstr "**RBM 与 DBN：** 从 MNIST 数字中学习层级特征；比较量子加速训练与经典 CD。"
 
 #: ../../source/theoretical-foundations-recap.md:55
 msgid ""
 "**Quantum Variational Autoencoder (Q‑VAE):** Replace the Gaussian prior of a"
 " VAE with a discrete quantum RBM and apply it to image generation and "
 "single‑cell transcriptomics."
-msgstr ""
-"每个教程都包含在可独立运行、修改和扩展的 Jupyter Notebook 中。完成第二部分后，你将亲身体验量子采样如何缓解经典混合瓶颈，并支持更具表达"
-"能力的生成模型。"
+msgstr "**量子变分自编码器（Q-VAE）：** 用离散量子 RBM 替代 VAE 的 Gaussian 先验，并应用于图像生成和单细胞转录组学。"
 
 #: ../../source/theoretical-foundations-recap.md:57
 msgid ""
@@ -241,6 +243,5 @@ msgid ""
 "first‑hand how quantum sampling alleviates the classical mixing bottleneck "
 "and enables more expressive generative models."
 msgstr ""
-"每个教程都包含在可独立运行、修改和扩展的 Jupyter Notebook 中。完成第二部分后，你将亲身体验量子采样如何缓解经典混合瓶颈，并支持更具表达"
-"能力的生成模型。"
-
+"每个教程都包含在可独立运行、修改和扩展的 Jupyter Notebook "
+"中。完成第二部分后，你将亲身体验量子采样如何缓解经典混合瓶颈，并支持更具表达能力的生成模型。"
