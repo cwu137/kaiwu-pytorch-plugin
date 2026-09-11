@@ -55,6 +55,11 @@ myst_enable_extensions = [
 myst_fence_as_directive = ["mermaid"]
 katex_prerender = True
 
+# 公式编号：启用 Sphinx numfig，使公式编号全局唯一（跨页面连续递增），
+# 避免每个页面从 (1) 重新计数导致跨页引用歧义。
+numfig = True
+math_numfig = True
+
 templates_path = ["_templates"]
 exclude_patterns = [
     "_build",
