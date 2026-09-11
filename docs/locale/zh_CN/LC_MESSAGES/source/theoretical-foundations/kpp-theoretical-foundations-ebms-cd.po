@@ -57,11 +57,6 @@ msgstr ""
 "Geoffrey Hinton 于 2002 年提出对比散度，其关键观察是：我们不必把 Markov 链一直运行到平衡。相反，可以把链初始化在 "
 "**数据点** 上，只运行少量步骤，通常甚至只运行 **一步**，然后把得到的状态当作来自模型分布的近似样本。"
 
-#: ../../source/theoretical-foundations/kpp-theoretical-foundations-ebms-cd.md:17
-msgid ""
-"Why should this work? Consider the gradient of the negative log-likelihood:"
-msgstr "为什么这会有效？考虑负对数似然梯度："
-
 #: ../../source/theoretical-foundations/kpp-theoretical-foundations-ebms-cd.md:19
 msgid ""
 "\\nabla f(\\theta) = -\\mathbb{E}_{\\text{data}} \\left[ \\frac{\\partial "
@@ -538,6 +533,15 @@ msgid ""
 "CD enabled the practical training of RBMs and deep belief networks, playing "
 "a pivotal role in the deep learning renaissance of the 2000s."
 msgstr "CD 使 RBM 和深度置信网络的实际训练成为可能，并在 2000 年代深度学习复兴中发挥了关键作用。"
+
+msgid ""
+"Why should this work? Consider the gradient of the negative log-likelihood "
+"(Eq. {eq}`eq-nll-gradient-tf`, Section 3.1):"
+msgstr "为什么这样做有效？考虑负对数似然的梯度 (Eq. {eq}`eq-nll-gradient-tf`，第 3.1 节)："
+
+#~ msgid ""
+#~ "Why should this work? Consider the gradient of the negative log-likelihood:"
+#~ msgstr "为什么这会有效？考虑负对数似然梯度："
 
 #~ msgid ""
 #~ "\\nabla f(\\theta) = -\\mathbb{E}_{\\text{data}} \\left[ \\frac{\\partial "

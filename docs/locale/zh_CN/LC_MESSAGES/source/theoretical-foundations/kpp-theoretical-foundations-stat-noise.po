@@ -38,17 +38,6 @@ msgstr ""
 msgid "The Hopfield Network: Deterministic Descent"
 msgstr "Hopfield 网络：确定性下降"
 
-#: ../../source/theoretical-foundations/kpp-theoretical-foundations-stat-noise.md:15
-#, python-brace-format
-msgid ""
-"A Hopfield network is a recurrent neural network with symmetric weights "
-"$w_{ij} = w_{ji}$ and no self-connections $w_{ii} = 0$. Its state evolves "
-"via asynchronous updates: at each time step, a single unit $i$is selected "
-"and its new state is determined by the sign of its total input:"
-msgstr ""
-"Hopfield 网络是一类具有对称权重 $w_{ij} = w_{ji}$ 且无自连接 $w_{ii} = 0$ "
-"的循环神经网络。其状态通过异步更新演化：每个时间步选择一个单元 $i$，并由其总输入的符号决定新状态："
-
 #: ../../source/theoretical-foundations/kpp-theoretical-foundations-stat-noise.md:17
 #, python-brace-format
 msgid "x_i \\leftarrow \\text{sign}\\left( \\sum_{j \\neq i} w_{ij} x_j + b_i \\right)"
@@ -84,17 +73,6 @@ msgstr ""
 #: ../../source/theoretical-foundations/kpp-theoretical-foundations-stat-noise.md:25
 msgid "Memories as Energy Minima"
 msgstr "作为能量极小值的记忆"
-
-#: ../../source/theoretical-foundations/kpp-theoretical-foundations-stat-noise.md:26
-msgid ""
-"The Hopfield network was originally proposed as a model of **associative "
-"memory**. By storing a set of patterns $\\{\\boldsymbol{\\xi}^1, "
-"\\boldsymbol{\\xi}^2, \\ldots, \\boldsymbol{\\xi}^P\\}$ using the Hebbian "
-"learning rule:"
-msgstr ""
-"Hopfield 网络最初被提出作为 **联想记忆** 模型。通过 Hebbian 学习规则存储一组模式 "
-"$\\{\\boldsymbol{\\xi}^1, \\boldsymbol{\\xi}^2, \\ldots, "
-"\\boldsymbol{\\xi}^P\\}$："
 
 #: ../../source/theoretical-foundations/kpp-theoretical-foundations-stat-noise.md:28
 #, python-brace-format
@@ -202,13 +180,6 @@ msgstr ""
 #: ../../source/theoretical-foundations/kpp-theoretical-foundations-stat-noise.md:48
 msgid "Enter Noise: Stochastic Dynamics and Thermal Fluctuations"
 msgstr "引入噪声：随机动力学与热涨落"
-
-#: ../../source/theoretical-foundations/kpp-theoretical-foundations-stat-noise.md:49
-msgid ""
-"The Boltzmann machine resolves this impasse by introducing **thermal "
-"noise**. Instead of setting a neuron deterministically to the sign of its "
-"input, the state is sampled probabilistically:"
-msgstr "玻尔兹曼机通过引入 **热噪声** 解决这一困境。它不再把神经元确定性地设为输入符号，而是按概率采样状态："
 
 #: ../../source/theoretical-foundations/kpp-theoretical-foundations-stat-noise.md:51
 msgid "P(x_i = 1) = \\sigma\\left( \\frac{\\sum_j w_{ij} x_j + b_i}{T} \\right)"
@@ -429,6 +400,62 @@ msgid ""
 "Restricted Boltzmann Machine (RBM), that make stochastic sampling "
 "computationally tractable."
 msgstr "后续章节将形式化玻尔兹曼机使用的能量函数，并介绍使随机采样在计算上可行的具体架构，尤其是受限玻尔兹曼机（RBM）。"
+
+msgid ""
+"A Hopfield network is a recurrent neural network with symmetric weights "
+"$w_{ij} = w_{ji}$ and no self-connections $w_{ii} = 0$. Its state evolves "
+"via the deterministic sign update (Eq. {eq}`eq-sign-update`, Section 1.1): "
+"asynchronous updates: at each time step, a single unit $i$is selected and "
+"its new state is determined by the sign of its total input:"
+msgstr ""
+"Hopfield 网络是一种具有对称权重 $w_{ij} = w_{ji}$ 且无自连接 $w_{ii} = 0$ "
+"的循环神经网络。其状态通过确定性符号更新规则 (Eq. {eq}`eq-sign-update`，第 1.1 节) "
+"演化：异步更新：在每个时间步，选择一个单元 $i$，其新状态由总输入的符号决定："
+
+msgid ""
+"The Hopfield network was originally proposed as a model of **associative "
+"memory**. By storing a set of patterns $\\{\\boldsymbol{\\xi}^1, "
+"\\boldsymbol{\\xi}^2, \\ldots, \\boldsymbol{\\xi}^P\\}$ using the Hebbian "
+"learning rule (Eq. {eq}`eq-hebbian`, Section 1.1):"
+msgstr ""
+"Hopfield 网络最初被提出作为**联想记忆**的模型。通过 Hebbian 学习规则 (Eq. {eq}`eq-hebbian`，第 1.1 节)"
+" 存储一组模式 $\\{\\boldsymbol{\\xi}^1, \\boldsymbol{\\xi}^2, \\ldots, "
+"\\boldsymbol{\\xi}^P\\}$："
+
+msgid ""
+"The Boltzmann machine resolves this impasse by introducing **thermal "
+"noise**. Instead of setting a neuron deterministically to the sign of its "
+"input (Eq. {eq}`eq-sign-update`, Section 1.1), the state is sampled "
+"stochastically (Eq. {eq}`eq-stoch-update`):"
+msgstr ""
+"玻尔兹曼机通过引入**热噪声**解决了这一困境。与其按输入的符号确定性地设置神经元状态 (Eq. {eq}`eq-sign-update`，第 1.1 "
+"节)，不如按随机规则采样状态 (Eq. {eq}`eq-stoch-update`)："
+
+#, python-brace-format
+#~ msgid ""
+#~ "A Hopfield network is a recurrent neural network with symmetric weights "
+#~ "$w_{ij} = w_{ji}$ and no self-connections $w_{ii} = 0$. Its state evolves "
+#~ "via asynchronous updates: at each time step, a single unit $i$is selected "
+#~ "and its new state is determined by the sign of its total input:"
+#~ msgstr ""
+#~ "Hopfield 网络是一类具有对称权重 $w_{ij} = w_{ji}$ 且无自连接 $w_{ii} = 0$ "
+#~ "的循环神经网络。其状态通过异步更新演化：每个时间步选择一个单元 $i$，并由其总输入的符号决定新状态："
+
+#~ msgid ""
+#~ "The Hopfield network was originally proposed as a model of **associative "
+#~ "memory**. By storing a set of patterns $\\{\\boldsymbol{\\xi}^1, "
+#~ "\\boldsymbol{\\xi}^2, \\ldots, \\boldsymbol{\\xi}^P\\}$ using the Hebbian "
+#~ "learning rule:"
+#~ msgstr ""
+#~ "Hopfield 网络最初被提出作为 **联想记忆** 模型。通过 Hebbian 学习规则存储一组模式 "
+#~ "$\\{\\boldsymbol{\\xi}^1, \\boldsymbol{\\xi}^2, \\ldots, "
+#~ "\\boldsymbol{\\xi}^P\\}$："
+
+#~ msgid ""
+#~ "The Boltzmann machine resolves this impasse by introducing **thermal "
+#~ "noise**. Instead of setting a neuron deterministically to the sign of its "
+#~ "input, the state is sampled probabilistically:"
+#~ msgstr "玻尔兹曼机通过引入 **热噪声** 解决这一困境。它不再把神经元确定性地设为输入符号，而是按概率采样状态："
 
 #~ msgid "x_i \\leftarrow \\text{sign}\\left( \\sum_{j \\neq i} w_{ij} x_j + b_i \\right)"
 #~ msgstr ""

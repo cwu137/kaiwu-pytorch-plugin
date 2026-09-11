@@ -68,12 +68,6 @@ msgstr ""
 "run it for only a small number of steps, often just **one,** and then treat "
 "the resulting state as an approximate sample from the model distribution."
 
-#: ../../source/theoretical-foundations/kpp-theoretical-foundations-ebms-cd.md:17
-msgid ""
-"Why should this work? Consider the gradient of the negative log-likelihood:"
-msgstr ""
-"Why should this work? Consider the gradient of the negative log-likelihood:"
-
 #: ../../source/theoretical-foundations/kpp-theoretical-foundations-ebms-cd.md:19
 msgid ""
 "\\nabla f(\\theta) = -\\mathbb{E}_{\\text{data}} \\left[ \\frac{\\partial "
@@ -654,6 +648,18 @@ msgid ""
 msgstr ""
 "CD enabled the practical training of RBMs and deep belief networks, playing "
 "a pivotal role in the deep learning renaissance of the 2000s."
+
+msgid ""
+"Why should this work? Consider the gradient of the negative log-likelihood "
+"(Eq. {eq}`eq-nll-gradient-tf`, Section 3.1):"
+msgstr ""
+"Why should this work? Consider the gradient of the negative log-likelihood "
+"(Eq. {eq}`eq-nll-gradient-tf`, Section 3.1):"
+
+#~ msgid ""
+#~ "Why should this work? Consider the gradient of the negative log-likelihood:"
+#~ msgstr ""
+#~ "Why should this work? Consider the gradient of the negative log-likelihood:"
 
 #~ msgid ""
 #~ "\\nabla f(\\theta) = -\\mathbb{E}_{\\text{data}} \\left[ \\frac{\\partial "

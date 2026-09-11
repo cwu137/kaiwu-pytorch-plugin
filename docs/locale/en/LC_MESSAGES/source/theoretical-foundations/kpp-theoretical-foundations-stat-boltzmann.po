@@ -454,10 +454,6 @@ msgstr ""
 "P_\\theta(\\mathbf{x}) \\, P(\\mathbf{x} \\to \\mathbf{x}') = "
 "P_\\theta(\\mathbf{x}') \\, P(\\mathbf{x}' \\to \\mathbf{x})"
 
-#: ../../source/theoretical-foundations/kpp-theoretical-foundations-stat-boltzmann.md:98
-msgid "The stochastic neuron update rule introduced earlier,"
-msgstr "The stochastic neuron update rule introduced earlier,"
-
 #: ../../source/theoretical-foundations/kpp-theoretical-foundations-stat-boltzmann.md:100
 #, python-brace-format
 msgid "P(x_i = 1) = \\sigma\\left( \\sum_j w_{ij} x_j + b_i \\right)"
@@ -578,6 +574,16 @@ msgid ""
 msgstr ""
 "The intractability of $Z$ motivates the development of approximate inference"
 " and learning algorithms, which will be explored in subsequent sections."
+
+msgid ""
+"The stochastic neuron update rule introduced in Eq. {eq}`eq-stoch-update` "
+"(Section 1.1),"
+msgstr ""
+"The stochastic neuron update rule introduced in Eq. {eq}`eq-stoch-update` "
+"(Section 1.1),"
+
+#~ msgid "The stochastic neuron update rule introduced earlier,"
+#~ msgstr "The stochastic neuron update rule introduced earlier,"
 
 #~ msgid ""
 #~ "Having established the analogy between magnetic spins and neural states, we "

@@ -19,7 +19,7 @@ In the framework of statistical mechanics, an equilibrium system is described by
 ## The Boltzmann Distribution
 The probability of finding the system in state $\mathbf{x}$ at temperature $T$ is:
 
-$$P(\mathbf{x}) = \frac{1}{Z} \exp\left(-\frac{E(\mathbf{x})}{k_B T}\right)$$
+$$P(\mathbf{x}) = \frac{1}{Z} \exp\left(-\frac{E(\mathbf{x})}{k_B T}\right)$$ (eq-boltzmann-dist)
 
 where:
 
@@ -95,7 +95,7 @@ When we say a Boltzmann machine samples from its **equilibrium distribution**, w
 
 $$P_\theta(\mathbf{x}) \, P(\mathbf{x} \to \mathbf{x}') = P_\theta(\mathbf{x}') \, P(\mathbf{x}' \to \mathbf{x})$$
 
-The stochastic neuron update rule introduced earlier,
+The stochastic neuron update rule introduced in Eq. {eq}`eq-stoch-update` (Section 1.1),
 
 $$P(x_i = 1) = \sigma\left( \sum_j w_{ij} x_j + b_i \right)$$
 
