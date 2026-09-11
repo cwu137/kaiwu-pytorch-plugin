@@ -112,13 +112,6 @@ msgstr "w_{ij} = w_{ji},\\quad \\forall i, j"
 msgid "and there are no self-connections: $w_{ii} = 0$."
 msgstr "并且没有自连接：$w_{ii} = 0$。"
 
-#: ../../source/theoretical-foundations/kpp-theoretical-foundations-nn-recurrent.md:31
-msgid ""
-"The network operates in discrete time. At each time step, a single unit is "
-"selected at random (or according to a fixed schedule) and its state is "
-"updated according to a deterministic rule:"
-msgstr "网络以离散时间运行。每个时间步随机选择一个单元（或按固定计划选择），并按照确定性规则更新其状态："
-
 #: ../../source/theoretical-foundations/kpp-theoretical-foundations-nn-recurrent.md:33
 #, python-brace-format
 msgid "x_i \\leftarrow \\text{sign}\\left( \\sum_{j \\neq i} w_{ij} x_j + b_i \\right)"
@@ -225,16 +218,6 @@ msgstr ""
 "Hopfield 网络不仅是一个动力学奇观；它还是 **内容寻址记忆** 模型。目标是把一组期望模式 $\\{\\boldsymbol{\\xi}^1,"
 " \\boldsymbol{\\xi}^2, \\ldots, \\boldsymbol{\\xi}^P\\}$ "
 "存储为网络动力学的吸引子。当以某个存储模式的损坏版本或部分版本作为初始状态时，网络沿能量景观确定性下降，恢复完整的原始记忆。"
-
-#: ../../source/theoretical-foundations/kpp-theoretical-foundations-nn-recurrent.md:57
-#, python-brace-format
-msgid ""
-"The **Hebbian learning rule** provides a biologically inspired prescription "
-"for setting weights. For binary $ \\{-1, +1\\}$patterns, the weight between "
-"units $i$ and $j$ is set to:"
-msgstr ""
-"**Hebbian 学习规则** 提供了一种具有生物学启发的权重设置方案。对于二值 $\\{-1, +1\\}$ 模式，单元 $i$ 与 $j$ "
-"之间的权重为："
 
 #: ../../source/theoretical-foundations/kpp-theoretical-foundations-nn-recurrent.md:59
 #, python-brace-format
@@ -444,13 +427,6 @@ msgstr ""
 msgid "P(x_i = 1) = \\sigma\\left( \\frac{\\sum_j w_{ij} x_j + b_i}{T} \\right)"
 msgstr "P(x_i = 1) = \\sigma\\left( \\frac{\\sum_j w_{ij} x_j + b_i}{T} \\right)"
 
-#: ../../source/theoretical-foundations/kpp-theoretical-foundations-nn-recurrent.md:105
-msgid ""
-"This single modification transforms the Hopfield network from a "
-"deterministic content-addressable memory into a **probabilistic generative "
-"model** capable of:"
-msgstr "这一单一修改把 Hopfield 网络从确定性的内容寻址记忆转变为 **概率生成模型**，具备以下能力："
-
 #: ../../source/theoretical-foundations/kpp-theoretical-foundations-nn-recurrent.md:107
 msgid ""
 "**Sampling from a distribution**: The network no longer converges to a "
@@ -482,15 +458,6 @@ msgid ""
 msgstr ""
 "实际上，玻尔兹曼机使系统能够从正则系综中采样（见 [1.2 玻尔兹曼分布与平衡](kpp-theoretical-foundations-stat-"
 "boltzmann.md)），而不只是下降到最近的确定性不动点。"
-
-#: ../../source/theoretical-foundations/kpp-theoretical-foundations-nn-recurrent.md:113
-msgid ""
-"The connection is profound: the Hopfield network defines the **energy "
-"landscape**, while the Boltzmann machine defines the **probability "
-"distribution** over that landscape. The two are intimately related by the "
-"Boltzmann distribution:"
-msgstr ""
-"这种联系非常深刻：Hopfield 网络定义了 **能量景观**，而玻尔兹曼机定义了该景观上的 **概率分布**。二者通过玻尔兹曼分布紧密相连："
 
 #: ../../source/theoretical-foundations/kpp-theoretical-foundations-nn-recurrent.md:115
 #, python-brace-format
@@ -552,6 +519,70 @@ msgid ""
 "distribution**, linking deterministic attractor dynamics to probabilistic "
 "inference."
 msgstr "Hopfield 能量函数成为 **玻尔兹曼分布** 的基础，将确定性吸引子动力学与概率推断连接起来。"
+
+msgid ""
+"The network operates in discrete time. At each time step, a single unit is "
+"selected at random (or according to a fixed schedule) and its state is "
+"updated according to the deterministic sign update (Eq. {eq}`eq-sign-"
+"update`, Section 1.1):"
+msgstr ""
+"网络以离散时间运行。在每个时间步，随机（或按固定调度）选择一个单元，并按照确定性符号更新规则 (Eq. {eq}`eq-sign-update`，第 "
+"1.1 节) 更新其状态："
+
+msgid ""
+"The **Hebbian learning rule** provides a biologically inspired prescription "
+"for setting weights. For binary $ \\{-1, +1\\}$patterns, the weight between "
+"units $i$ and $j$ is set by the Hebbian rule (Eq. {eq}`eq-hebbian`, Section "
+"1.1):"
+msgstr ""
+"**Hebbian 学习规则** 提供了一种受生物学启发的权重设置方法。对于二值 $\\{-1, +1\\}$ 模式，单元 $i$ 与 $j$ "
+"之间的权重由 Hebbian 规则 (Eq. {eq}`eq-hebbian`，第 1.1 节) 设置："
+
+msgid ""
+"This single stochastic update (Eq. {eq}`eq-stoch-update`, Section 1.1) "
+"transforms the Hopfield network from a deterministic content-addressable "
+"memory into a **probabilistic generative model** capable of:"
+msgstr ""
+"这一单步随机更新 (Eq. {eq}`eq-stoch-update`，第 1.1 节) 将 Hopfield "
+"网络从确定性的内容寻址记忆转化为一种**概率生成模型**，使其能够："
+
+msgid ""
+"The connection is profound: the Hopfield network defines the **energy "
+"landscape**, while the Boltzmann machine defines the **probability "
+"distribution** over that landscape. The two are intimately related by the "
+"Boltzmann distribution (Eq. {eq}`eq-boltzmann-dist`, Section 1.2):"
+msgstr ""
+"二者之间的联系深刻：Hopfield 网络定义了**能量景观**，而玻尔兹曼机定义了该景观上的**概率分布**。二者通过玻尔兹曼分布 (Eq. "
+"{eq}`eq-boltzmann-dist`，第 1.2 节) 紧密关联："
+
+#~ msgid ""
+#~ "The network operates in discrete time. At each time step, a single unit is "
+#~ "selected at random (or according to a fixed schedule) and its state is "
+#~ "updated according to a deterministic rule:"
+#~ msgstr "网络以离散时间运行。每个时间步随机选择一个单元（或按固定计划选择），并按照确定性规则更新其状态："
+
+#, python-brace-format
+#~ msgid ""
+#~ "The **Hebbian learning rule** provides a biologically inspired prescription "
+#~ "for setting weights. For binary $ \\{-1, +1\\}$patterns, the weight between "
+#~ "units $i$ and $j$ is set to:"
+#~ msgstr ""
+#~ "**Hebbian 学习规则** 提供了一种具有生物学启发的权重设置方案。对于二值 $\\{-1, +1\\}$ 模式，单元 $i$ 与 $j$ "
+#~ "之间的权重为："
+
+#~ msgid ""
+#~ "This single modification transforms the Hopfield network from a "
+#~ "deterministic content-addressable memory into a **probabilistic generative "
+#~ "model** capable of:"
+#~ msgstr "这一单一修改把 Hopfield 网络从确定性的内容寻址记忆转变为 **概率生成模型**，具备以下能力："
+
+#~ msgid ""
+#~ "The connection is profound: the Hopfield network defines the **energy "
+#~ "landscape**, while the Boltzmann machine defines the **probability "
+#~ "distribution** over that landscape. The two are intimately related by the "
+#~ "Boltzmann distribution:"
+#~ msgstr ""
+#~ "这种联系非常深刻：Hopfield 网络定义了 **能量景观**，而玻尔兹曼机定义了该景观上的 **概率分布**。二者通过玻尔兹曼分布紧密相连："
 
 #~ msgid "w_{ij} = w_{ji},\\quad \\forall i, j"
 #~ msgstr ""

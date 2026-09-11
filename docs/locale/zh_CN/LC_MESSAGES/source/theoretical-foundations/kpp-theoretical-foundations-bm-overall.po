@@ -132,13 +132,6 @@ msgstr ""
 "其中 $\\mathbf{x} = (\\mathbf{v}, \\mathbf{h})$ 表示完整状态向量，$b_i$ 是可见偏置，$c_j$ "
 "是隐藏偏置。对 $i<j$ 的求和覆盖所有不同单元对，包括可见-可见、可见-隐藏和隐藏-隐藏。"
 
-#: ../../source/theoretical-foundations/kpp-theoretical-foundations-bm-overall.md:35
-#, python-brace-format
-msgid ""
-"This energy function defines a joint probability distribution over all "
-"$2^{N}$ possible states via the Boltzmann distribution:"
-msgstr "该能量函数通过玻尔兹曼分布定义所有 $2^{N}$ 个可能状态上的联合概率："
-
 #: ../../source/theoretical-foundations/kpp-theoretical-foundations-bm-overall.md:37
 #, python-brace-format
 msgid ""
@@ -147,10 +140,6 @@ msgid ""
 msgstr ""
 "P(\\mathbf{v}, \\mathbf{h}) = \\frac{1}{Z} \\exp\\left(-E(\\mathbf{v}, "
 "\\mathbf{h})\\right)"
-
-#: ../../source/theoretical-foundations/kpp-theoretical-foundations-bm-overall.md:39
-msgid "where the partition function $Z$ sums over all joint configurations:"
-msgstr "其中配分函数 $Z$ 对所有联合构型求和："
 
 #: ../../source/theoretical-foundations/kpp-theoretical-foundations-bm-overall.md:41
 msgid ""
@@ -240,20 +229,6 @@ msgstr "反复应用该更新会将网络推向平衡，此时构型按照 $P(\\
 #: ../../source/theoretical-foundations/kpp-theoretical-foundations-bm-overall.md:60
 msgid "Learning Objective: Maximum Likelihood with Hidden Variables"
 msgstr "学习目标：带隐藏变量的最大似然"
-
-#: ../../source/theoretical-foundations/kpp-theoretical-foundations-bm-overall.md:61
-#, python-brace-format
-msgid ""
-"The goal of learning is to adjust the weights and biases so that the "
-"marginal distribution over visible units, $P(\\mathbf{v})$, approximates the"
-" empirical distribution of the training data. As derived in Section [3.1 "
-"Defining the Objective: Low Energy for Real Data](kpp-theoretical-"
-"foundations-ebms-def.md), the gradient of the negative log-likelihood for a "
-"single training example $\\mathbf{v}$ with respect to a weight $w_{ij}$ is:"
-msgstr ""
-"学习目标是调整权重和偏置，使可见单元上的边缘分布 $P(\\mathbf{v})$ 近似训练数据的经验分布。根据 [3.1 "
-"定义目标：让真实数据具有低能量](kpp-theoretical-foundations-ebms-def.md) 推导，单个训练样本 "
-"$\\mathbf{v}$ 关于权重 $w_{ij}$ 的负对数似然梯度为："
 
 #: ../../source/theoretical-foundations/kpp-theoretical-foundations-bm-overall.md:63
 msgid ""
@@ -550,6 +525,54 @@ msgid ""
 "development of the **Restricted Boltzmann Machine (RBM)**, which removes "
 "certain connections to enable efficient sampling."
 msgstr "经典玻尔兹曼机的计算瓶颈推动了 **受限玻尔兹曼机（RBM）** 的发展，后者通过移除部分连接实现高效采样。"
+
+msgid ""
+"This energy function defines a joint probability distribution over all "
+"$2^{N}$ possible states via the Boltzmann distribution (Eq. {eq}`eq-"
+"boltzmann-dist`, Section 1.2):"
+msgstr ""
+"该能量函数通过玻尔兹曼分布 (Eq. {eq}`eq-boltzmann-dist`，第 1.2 节) 定义了所有 $2^{N}$ "
+"个可能状态上的联合概率分布："
+
+msgid ""
+"where the partition function $Z$ (cf. Eq. {eq}`eq-partition`, Section 3.2) "
+"sums over all joint configurations:"
+msgstr "其中配分函数 $Z$（参见 Eq. {eq}`eq-partition`，第 3.2 节）对所有联合构型求和："
+
+msgid ""
+"The goal of learning is to adjust the weights and biases so that the "
+"marginal distribution over visible units, $P(\\mathbf{v})$, approximates the"
+" empirical distribution of the training data. As derived in Section [3.1 "
+"Defining the Objective: Low Energy for Real Data](kpp-theoretical-"
+"foundations-ebms-def.md) (Eq. {eq}`eq-nll-gradient-tf`), the gradient of the"
+" negative log-likelihood for a single training example $\\mathbf{v}$ with "
+"respect to a weight $w_{ij}$ is:"
+msgstr ""
+"学习的目标是调整权重与偏置，使得可见单元上的边缘分布 $P(\\mathbf{v})$ 逼近训练数据的经验分布。如第 [3.1 "
+"定义目标：让真实数据具有低能量](kpp-theoretical-foundations-ebms-def.md) 节所推导 (Eq. {eq}`eq-"
+"nll-gradient-tf`)，单个训练样本 $\\mathbf{v}$ 的负对数似然关于权重 $w_{ij}$ 的梯度为："
+
+#, python-brace-format
+#~ msgid ""
+#~ "This energy function defines a joint probability distribution over all "
+#~ "$2^{N}$ possible states via the Boltzmann distribution:"
+#~ msgstr "该能量函数通过玻尔兹曼分布定义所有 $2^{N}$ 个可能状态上的联合概率："
+
+#~ msgid "where the partition function $Z$ sums over all joint configurations:"
+#~ msgstr "其中配分函数 $Z$ 对所有联合构型求和："
+
+#, python-brace-format
+#~ msgid ""
+#~ "The goal of learning is to adjust the weights and biases so that the "
+#~ "marginal distribution over visible units, $P(\\mathbf{v})$, approximates the"
+#~ " empirical distribution of the training data. As derived in Section [3.1 "
+#~ "Defining the Objective: Low Energy for Real Data](kpp-theoretical-"
+#~ "foundations-ebms-def.md), the gradient of the negative log-likelihood for a "
+#~ "single training example $\\mathbf{v}$ with respect to a weight $w_{ij}$ is:"
+#~ msgstr ""
+#~ "学习目标是调整权重和偏置，使可见单元上的边缘分布 $P(\\mathbf{v})$ 近似训练数据的经验分布。根据 [3.1 "
+#~ "定义目标：让真实数据具有低能量](kpp-theoretical-foundations-ebms-def.md) 推导，单个训练样本 "
+#~ "$\\mathbf{v}$ 关于权重 $w_{ij}$ 的负对数似然梯度为："
 
 #~ msgid "w_{ij} = w_{ji}, \\quad \\text{for all } i, j"
 #~ msgstr ""

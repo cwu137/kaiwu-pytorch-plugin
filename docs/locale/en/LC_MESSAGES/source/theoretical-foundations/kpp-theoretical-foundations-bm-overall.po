@@ -159,15 +159,6 @@ msgstr ""
 " over $i<j$ runs over all distinct pairs of units, both visible-visible, "
 "visible-hidden, and hidden-hidden."
 
-#: ../../source/theoretical-foundations/kpp-theoretical-foundations-bm-overall.md:35
-#, python-brace-format
-msgid ""
-"This energy function defines a joint probability distribution over all "
-"$2^{N}$ possible states via the Boltzmann distribution:"
-msgstr ""
-"This energy function defines a joint probability distribution over all "
-"$2^{N}$ possible states via the Boltzmann distribution:"
-
 #: ../../source/theoretical-foundations/kpp-theoretical-foundations-bm-overall.md:37
 #, python-brace-format
 msgid ""
@@ -176,10 +167,6 @@ msgid ""
 msgstr ""
 "P(\\mathbf{v}, \\mathbf{h}) = \\frac{1}{Z} \\exp\\left(-E(\\mathbf{v}, "
 "\\mathbf{h})\\right)"
-
-#: ../../source/theoretical-foundations/kpp-theoretical-foundations-bm-overall.md:39
-msgid "where the partition function $Z$ sums over all joint configurations:"
-msgstr "where the partition function $Z$ sums over all joint configurations:"
 
 #: ../../source/theoretical-foundations/kpp-theoretical-foundations-bm-overall.md:41
 msgid ""
@@ -281,23 +268,6 @@ msgstr ""
 #: ../../source/theoretical-foundations/kpp-theoretical-foundations-bm-overall.md:60
 msgid "Learning Objective: Maximum Likelihood with Hidden Variables"
 msgstr "Learning Objective: Maximum Likelihood with Hidden Variables"
-
-#: ../../source/theoretical-foundations/kpp-theoretical-foundations-bm-overall.md:61
-#, python-brace-format
-msgid ""
-"The goal of learning is to adjust the weights and biases so that the "
-"marginal distribution over visible units, $P(\\mathbf{v})$, approximates the"
-" empirical distribution of the training data. As derived in Section [3.1 "
-"Defining the Objective: Low Energy for Real Data](kpp-theoretical-"
-"foundations-ebms-def.md), the gradient of the negative log-likelihood for a "
-"single training example $\\mathbf{v}$ with respect to a weight $w_{ij}$ is:"
-msgstr ""
-"The goal of learning is to adjust the weights and biases so that the "
-"marginal distribution over visible units, $P(\\mathbf{v})$, approximates the"
-" empirical distribution of the training data. As derived in Section [3.1 "
-"Defining the Objective: Low Energy for Real Data](kpp-theoretical-"
-"foundations-ebms-def.md), the gradient of the negative log-likelihood for a "
-"single training example $\\mathbf{v}$ with respect to a weight $w_{ij}$ is:"
 
 #: ../../source/theoretical-foundations/kpp-theoretical-foundations-bm-overall.md:63
 msgid ""
@@ -675,6 +645,66 @@ msgstr ""
 "The computational bottleneck of the classic Boltzmann machine motivated the "
 "development of the **Restricted Boltzmann Machine (RBM)**, which removes "
 "certain connections to enable efficient sampling."
+
+msgid ""
+"This energy function defines a joint probability distribution over all "
+"$2^{N}$ possible states via the Boltzmann distribution (Eq. {eq}`eq-"
+"boltzmann-dist`, Section 1.2):"
+msgstr ""
+"This energy function defines a joint probability distribution over all "
+"$2^{N}$ possible states via the Boltzmann distribution (Eq. {eq}`eq-"
+"boltzmann-dist`, Section 1.2):"
+
+msgid ""
+"where the partition function $Z$ (cf. Eq. {eq}`eq-partition`, Section 3.2) "
+"sums over all joint configurations:"
+msgstr ""
+"where the partition function $Z$ (cf. Eq. {eq}`eq-partition`, Section 3.2) "
+"sums over all joint configurations:"
+
+msgid ""
+"The goal of learning is to adjust the weights and biases so that the "
+"marginal distribution over visible units, $P(\\mathbf{v})$, approximates the"
+" empirical distribution of the training data. As derived in Section [3.1 "
+"Defining the Objective: Low Energy for Real Data](kpp-theoretical-"
+"foundations-ebms-def.md) (Eq. {eq}`eq-nll-gradient-tf`), the gradient of the"
+" negative log-likelihood for a single training example $\\mathbf{v}$ with "
+"respect to a weight $w_{ij}$ is:"
+msgstr ""
+"The goal of learning is to adjust the weights and biases so that the "
+"marginal distribution over visible units, $P(\\mathbf{v})$, approximates the"
+" empirical distribution of the training data. As derived in Section [3.1 "
+"Defining the Objective: Low Energy for Real Data](kpp-theoretical-"
+"foundations-ebms-def.md) (Eq. {eq}`eq-nll-gradient-tf`), the gradient of the"
+" negative log-likelihood for a single training example $\\mathbf{v}$ with "
+"respect to a weight $w_{ij}$ is:"
+
+#, python-brace-format
+#~ msgid ""
+#~ "This energy function defines a joint probability distribution over all "
+#~ "$2^{N}$ possible states via the Boltzmann distribution:"
+#~ msgstr ""
+#~ "This energy function defines a joint probability distribution over all "
+#~ "$2^{N}$ possible states via the Boltzmann distribution:"
+
+#~ msgid "where the partition function $Z$ sums over all joint configurations:"
+#~ msgstr "where the partition function $Z$ sums over all joint configurations:"
+
+#, python-brace-format
+#~ msgid ""
+#~ "The goal of learning is to adjust the weights and biases so that the "
+#~ "marginal distribution over visible units, $P(\\mathbf{v})$, approximates the"
+#~ " empirical distribution of the training data. As derived in Section [3.1 "
+#~ "Defining the Objective: Low Energy for Real Data](kpp-theoretical-"
+#~ "foundations-ebms-def.md), the gradient of the negative log-likelihood for a "
+#~ "single training example $\\mathbf{v}$ with respect to a weight $w_{ij}$ is:"
+#~ msgstr ""
+#~ "The goal of learning is to adjust the weights and biases so that the "
+#~ "marginal distribution over visible units, $P(\\mathbf{v})$, approximates the"
+#~ " empirical distribution of the training data. As derived in Section [3.1 "
+#~ "Defining the Objective: Low Energy for Real Data](kpp-theoretical-"
+#~ "foundations-ebms-def.md), the gradient of the negative log-likelihood for a "
+#~ "single training example $\\mathbf{v}$ with respect to a weight $w_{ij}$ is:"
 
 #~ msgid ""
 #~ "The preceding chapters have built the theoretical foundations—statistical "
